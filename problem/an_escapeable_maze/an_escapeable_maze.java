@@ -3,12 +3,10 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.HashMap;
 
 public class test {
-	// 미로 ArrayList 생성
-	public static ArrayList<ArrayList<String>> maze = new ArrayList<ArrayList<String>>();
+	public static ArrayList<ArrayList<String>> maze = new ArrayList<ArrayList<String>>(); // 미로 ArrayList 생성
 	public static HashMap<Integer, ArrayList<ArrayList<String>>> mazeSolution = new HashMap<Integer, ArrayList<ArrayList<String>>>();
 	public static HashMap<Integer, Path> pathMap = new HashMap<Integer, Path>();
 	public static int sw = 0;
@@ -39,9 +37,9 @@ public class test {
 		dfs(maze, x, y, path);
 		
 		System.out.println();
-		System.out.println("탈출 가능한 경로 : " + count);
 		
-		int min = 0;
+		
+		int min = pathMap.get(0).getSize();
 		int best = 0;
 		
 		for(int i=0; i<pathMap.size(); i++) {
@@ -53,6 +51,8 @@ public class test {
 		}
 		
 		ArrayList<ArrayList<String>> bestMaze = mazeSolution.get(best);
+		System.out.println("탈출 가능한 경로 : " + count + "개");
+		System.out.println("최단 경로 : Route" + best + ", 경로 길이 : " + pathMap.get(best).getSize());
 		
 		for(int i=0; i<bestMaze.size(); i++) {
 			for(int j=0; j<bestMaze.get(i).size(); j++) {
@@ -63,9 +63,7 @@ public class test {
 
 	public static void dfs(ArrayList<ArrayList<String>> maze, int i, int j, Path path) {
 		// 미로 풀이
-//		System.out.println("탐색 : (" + i + "," + j + ")");
 		int[] code = {i, j};
-		
 		
 		if(maze.get(i).get(j).equals(" ") || maze.get(i).get(j).equals("S")) {
 			if(maze.get(i).get(j).equals(" ") || maze.get(i).get(j).equals("S")) {
@@ -89,26 +87,14 @@ public class test {
 			ArrayList<ArrayList<String>> mazeSol = new ArrayList<ArrayList<String>>();
 			try {
 				resultPath = (Path)path.clone();
-//				mazeSol.addAll(maze);
 				mazeSol = SubjectList_Copy(maze);
 			} catch (CloneNotSupportedException e) {
 				e.printStackTrace();
 			}
 			pathMap.put(count, resultPath);
 			mazeSolution.put(count, mazeSol);
-//			for(int i1=0; i1<mazeSolution.get(count).size(); i1++) {
-//				for(int j1=0; j1<mazeSolution.get(count).get(i1).size(); j1++) {
-//					System.out.print(mazeSolution.get(count).get(i1).get(j1));
-//				}
-//			}
 			
 			count++;
-			
-//			for(int k=0; k<((ArrayList<ArrayList<String>>) maze.clone()).size(); k++) {
-//				for(int p=0; p<((ArrayList<ArrayList<String>>) maze.clone()).get(k).size(); p++) {
-//					System.out.print(maze.get(k).get(p));
-//				}
-//			}
 		}
 	}
 	
@@ -116,7 +102,7 @@ public class test {
 		// 미로 파일 읽기
 		try{
 	        //파일 객체 생성
-	        File file = new File("D:/Development/jwork/private/src/maze.txt");
+	        File file = new File("D:/Development/work/maze/src/maze/maze.txt"); // 미로 파일 경로
 	         //입력 스트림 생성
 	         FileReader file_reader = new FileReader(file);
 	         int cur = 0;
