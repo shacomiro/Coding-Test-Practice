@@ -7,13 +7,15 @@
 ## 사용 언어
 
 - JAVA
-- 추가 예정
+- 추가 예정! 🥸
 
 ## 연습 문제
 
 ### [프로그래머스](./exercise/Programmers)
 
 - [해시](./exercise/Programmers/Hash)
+- [스택/큐](./exercise/Programmers/StackNQueue)
+- [정렬](./exercise/Programmers/Sort)
 - [탐욕법(Greedy)](./exercise/Programmers/Greedy)
 - [위클리 챌린지](./exercise/Programmers/Weekly-Challenge)
 - [2021 KAKAO BLIND RECRUITMENT](./exercise/Programmers/2021-KAKAO-BLIND-RECRUITMENT)
