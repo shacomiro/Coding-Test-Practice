@@ -1,0 +1,32 @@
+import java.util.Queue;
+import java.util.LinkedList;
+
+class Solution {
+    public int solution(int[] arr) {
+        Queue<Integer> queue = new LinkedList<Integer>(); 
+        
+        for(int num : arr) {
+        	queue.add(num);
+        }
+        
+        while(queue.size() != 1) {
+        	int num1 = queue.poll();
+        	int num2 = queue.poll();
+        	int big = Math.max(num1, num2);
+        	int small = Math.min(num1, num2);
+        	int b = big;
+        	int s = small;
+        	
+        	while(b % s !=0) {
+        		int temp = b % s;
+        		b = s;
+        		s = temp;
+        	}
+        	
+        	queue.add((int)(((long)big * (long)small) / s));
+        }
+        
+        return queue.poll();
+    }
+}
+//+2
