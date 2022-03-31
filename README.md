@@ -6,7 +6,7 @@
 
 ## 사용 언어
 
-- JAVA
+- Java
 - 추가 예정! 🥸
 
 ## 연습 문제
@@ -19,14 +19,18 @@
 
 - [해시](./exercise/Programmers/코딩테스트-고득점-Kit/Hash)
 - [스택/큐](./exercise/Programmers/코딩테스트-고득점-Kit/StackNQueue)
-- 힙(Heap)
+- [힙(Heap)](./exercise/Programmers/코딩테스트-고득점-Kit/Hash)
 - [정렬](./exercise/Programmers/코딩테스트-고득점-Kit/Sort)
-- 완전탐색
+- [완전탐색](./exercise/Programmers/코딩테스트-고득점-Kit/ExhaustiveSearch)
 - [탐욕법(Greedy)](./exercise/Programmers/코딩테스트-고득점-Kit/Greedy)
 - 동적계획법(Dynamic Programming)
-- 깊이/너비 우선 탐색(DFS/BFS)
+- [깊이/너비 우선 탐색(DFS/BFS)](./exercise/Programmers/코딩테스트-고득점-Kit/DFSAndBFS)
 - 이분탐색
 - 그래프
+
+#### SQL 고득점 Kit
+
+- [SUM, MAX, MIN](./exercise/Programmers/SQL-고득점-Kit/SUM,MAX_MIN)
 
 #### 문제 모음
 
