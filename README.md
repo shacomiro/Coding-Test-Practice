@@ -20,7 +20,7 @@
 #### 코딩테스트 고득점 Kit
 
 - [해시](./exercise/Programmers/코딩테스트-고득점-Kit/Hash)
-- [스택/큐](./exercise/Programmers/코딩테스트-고득점-Kit/StackNQueue)
+- [스택/큐](./exercise/Programmers/코딩테스트-고득점-Kit/StackAndQueue)
 - [힙(Heap)](./exercise/Programmers/코딩테스트-고득점-Kit/Hash)
 - [정렬](./exercise/Programmers/코딩테스트-고득점-Kit/Sort)
 - [완전탐색](./exercise/Programmers/코딩테스트-고득점-Kit/ExhaustiveSearch)
@@ -32,7 +32,12 @@
 
 #### SQL 고득점 Kit
 
-- [SUM, MAX, MIN](./exercise/Programmers/SQL-고득점-Kit/SUM,MAX_MIN)
+- SELECT
+- [SUM, MAX, MIN](./exercise/Programmers/SQL-고득점-Kit/SUM,MAX,MIN)
+- GROUP BY
+- IS NULL
+- JOIN
+- String, Date
 
 #### 문제 모음
 
@@ -42,10 +47,13 @@
 - [2021 KAKAO BLIND RECRUITMENT](./exercise/Programmers/문제-모음/2021-KAKAO-BLIND-RECRUITMENT)
 - [2021 카카오 채용연계형 인턴십](./exercise/Programmers/문제-모음/2021-카카오-채용연계형-인턴십)
 - [2022 KAKAO BLIND RECRUITMENT](./exercise/Programmers/문제-모음/2022-KAKAO-BLIND-RECRUITMENT)
+- [Summer/Winter Coding(~2018)](<./exercise/Programmers/문제-모음/SummerWinter-Coding(~2018)>)
+- [Summer/Winter Coding(2019)](<./exercise/Programmers/문제-모음/SummerWinter-Coding(2019)>)
 - [위클리 챌린지](./exercise/Programmers/문제-모음/Weekly-Challenge)
 - [월간 코드 챌린지 시즌1](./exercise/Programmers/문제-모음/월간-코드-챌린지-시즌1)
 - [월간 코드 챌린지 시즌2](./exercise/Programmers/문제-모음/월간-코드-챌린지-시즌2)
 - [월간 코드 챌린지 시즌3](./exercise/Programmers/문제-모음/월간-코드-챌린지-시즌3)
+- [찾아라 프로그래밍 마에스터](./exercise/Programmers/문제-모음/찾아라-프로그래밍-마에스터)
 
 #### 프로그래밍 강의
 
@@ -55,4 +63,4 @@
 
 널리 공개된 적은 없지만, 실제 문제로 사용됐거나 나올 법 한 문제들이에요.
 
-- [탈출 가능한 미로](./[problem/an_escapeable_maze)
+- [탈출 가능한 미로](./problem/an_escapeable_maze)
