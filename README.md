@@ -37,12 +37,14 @@
 - GROUP BY
 - IS NULL
 - JOIN
-- String, Date
+- [String, Date](./exercise/Programmers/SQL-고득점-Kit/String,Date)
 
 #### 문제 모음
 
+- [2017 팁스타운](./exercise/Programmers/문제-모음/2017-팁스타운)
 - [2018 KAKAO BLIND RECRUITMENT](./exercise/Programmers/문제-모음/2018-KAKAO-BLIND-RECRUITMENT)
 - [2019 KAKAO BLIND RECRUITMENT](./exercise/Programmers/문제-모음/2019-KAKAO-BLIND-RECRUITMENT)
+- [2019 카카오 개발자 겨울 인턴십](./exercise/Programmers/문제-모음/2019-카카오-개발자-겨울-인턴십)
 - [2020 KAKAO BLIND RECRUITMENT](./exercise/Programmers/문제-모음/2020-KAKAO-BLIND-RECRUITMENT)
 - [2021 Dev Matching 웹 백엔드 개발자(상반기)](<./exercise/Programmers/문제-모음/2021-Dev-Matching-웹-백엔드-개발자(상반기)>)
 - [2021 KAKAO BLIND RECRUITMENT](./exercise/Programmers/문제-모음/2021-KAKAO-BLIND-RECRUITMENT)
