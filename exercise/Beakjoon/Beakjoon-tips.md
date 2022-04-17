@@ -4,6 +4,12 @@
 
 [백준 온라인 저지](https://www.acmicpc.net)에서 문제를 풀면서 도움이 될만한 내용들에 대한 정리입니다.
 
+## 추천 문제
+
+풀이해보면 괜찮을만한 문제들의 모음입니다.
+
+- [[취업 준비] 신입 개발자 알고리즘 팁 정리 및 문제 추천](https://mangkyu.tistory.com/181)
+
 ## 입력을 효율적으로 받기
 
 제공되는 문제들은 대부분 콘솔 입력을 통해 테스트 케이스를 받습니다. 따라서 **테이스 케이스 입력을 얼마나 효율적으로 받느냐에 따라 소요시간이 바뀌게 됩니다.** 본 문서는 이에 대한 참고사항을 다룹니다.
@@ -93,3 +99,11 @@ public class Main {
       new Main().solution();
     }
 }</code></pre>
+
+## 참고 자료
+
+- [자바로 백준 풀 때의 팁 및 주의점 (boj java)](https://nahwasa.com/entry자바로-백준-풀-때의-팁-및-주의점-boj-java)
+- [백준 문제 자바로 풀 때 유의사항](https://blog.naver.com/chltmddus23/221696297647)
+- [[JAVA 자바]입력받기 Scanner vs BufferedReader](https://blog.naver.com/parkhj2416/221843949484)
+- [[JAVA] BufferedReader 와 Bufferedwriter 사용법](https://blog.naver.com/ka28/221850826909)
+- [[Java , BaekJoon] 자바로 백준 입력 받는 법 정리](https://rhsalska55.tistory.com/6)
