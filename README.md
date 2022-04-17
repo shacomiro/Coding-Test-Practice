@@ -9,15 +9,17 @@
 - Java
 - 추가 예정! 🥸
 
-## 연습 문제
+## [백준 온라인 저지](./exercise/Beakjoon)
 
-널리 공개되어 있는 문제들이에요.
+### 알고리즘 분류
 
-### [프로그래머스](./exercise/Programmers)
+- [문자열](./exercise/Beakjoon/문자열)
+
+## [프로그래머스](./exercise/Programmers)
 
 - [연습문제](./exercise/Programmers/연습문제)
 
-#### 코딩테스트 고득점 Kit
+### 코딩테스트 고득점 Kit
 
 - [해시](./exercise/Programmers/코딩테스트-고득점-Kit/Hash)
 - [스택/큐](./exercise/Programmers/코딩테스트-고득점-Kit/StackAndQueue)
@@ -30,7 +32,7 @@
 - 이분탐색
 - 그래프
 
-#### SQL 고득점 Kit
+### SQL 고득점 Kit
 
 - SELECT
 - [SUM, MAX, MIN](./exercise/Programmers/SQL-고득점-Kit/SUM,MAX,MIN)
@@ -39,7 +41,7 @@
 - JOIN
 - [String, Date](./exercise/Programmers/SQL-고득점-Kit/String,Date)
 
-#### 문제 모음
+### 문제 모음
 
 - [2017 팁스타운](./exercise/Programmers/문제-모음/2017-팁스타운)
 - [2018 KAKAO BLIND RECRUITMENT](./exercise/Programmers/문제-모음/2018-KAKAO-BLIND-RECRUITMENT)
@@ -58,7 +60,7 @@
 - [월간 코드 챌린지 시즌3](./exercise/Programmers/문제-모음/월간-코드-챌린지-시즌3)
 - [찾아라 프로그래밍 마에스터](./exercise/Programmers/문제-모음/찾아라-프로그래밍-마에스터)
 
-#### 프로그래밍 강의
+### 프로그래밍 강의
 
 - [COS Pro 1급 Java 모의고사](./exercise/프로그래밍-강의/COS-Pro-Grade-1-Java-Mock-Test)
 
