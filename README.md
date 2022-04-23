@@ -13,7 +13,11 @@
 
 ### 알고리즘 분류
 
+- [구현](./exercise/Beakjoon/구현)
 - [문자열](./exercise/Beakjoon/문자열)
+- [수학](./exercise/Beakjoon/수학)
+- [시뮬레이션](./exercise/Beakjoon/시뮬레이션)
+- [정렬](./exercise/Beakjoon/정렬)
 
 ## [프로그래머스](./exercise/Programmers)
 
