@@ -1,0 +1,70 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+
+public class Main {
+    public String[] solution(int n, String[] words) {
+        String[] answer = new String[n];
+
+        for(int i = 0; i < n; i++) {
+            answer[i] = String.valueOf(new StringBuilder(words[i]).reverse());
+        }
+
+        return answer;
+    }
+
+    public ArrayList<String> alternativeSolutionOne(int n, String[] words) {
+        ArrayList<String> answer = new ArrayList<>();
+
+        /**
+         * String 객체는 '불변'의 특성을 가지고 있다. 따라서 String 변수에 변화를 주는 것을 사실상 새로운 String 객체를 생성하는 것과 같아 연산량을 늘리게 된다.
+         * 이럴때 StringBuilder 객체를 사용하면 기존 객체를 '재사용'하는 것이 가능하다. 더 빠른 연산 속도를 자랑하는 것은 덤이다.
+         */
+        for(String word : words) {
+            String temp = String.valueOf(new StringBuffer(word).reverse());
+            answer.add(temp);
+        }
+
+        return answer;
+    }
+
+    //특정 조건의 내용물만 뒤집어야 하는 경우, 인덱스를 사용.
+    public ArrayList<String> alternativeSolutionTwo(int n, String[] words) {
+        ArrayList<String> answer = new ArrayList<>();
+
+        for(String word : words) {
+            char[] w = word.toCharArray();
+            int lt = 0;
+            int rt = w.length - 1;
+
+            while(lt < rt) {
+                char temp = w[lt];
+                w[lt] = w[rt];
+                w[rt] = temp;
+
+                lt++;
+                rt--;
+            }
+
+            answer.add(String.valueOf(w));
+        }
+
+        return answer;
+    }
+
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        Main T= new Main();
+        int N = Integer.parseInt(br.readLine());
+        String[] words = new String[N];
+
+        for(int i = 0; i < N; i++) {
+            words[i] = br.readLine();
+        }
+        
+        for(String str : T.solution(n, words)) {
+            System.out.println(str);
+        }
+    }
+}
