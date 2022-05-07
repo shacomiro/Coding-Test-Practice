@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
   
 public class Main {
-  public StringBuilder Solution(String str) {
+  public StringBuilder solution(String str) {
         StringBuilder answer = new StringBuilder();
 
         for(char c : str.toCharArray()) {
@@ -15,12 +15,26 @@ public class Main {
 
         return answer;
     }
+
+    public StringBuilder alternativeSolution(String str) {
+        StringBuilder answer = new StringBuilder();
+
+        // char 자료형의 ASCII 코드값을 직접 비교, 연산하는 방법도 가능하다.
+        for(char c : str.toCharArray()) {
+            if(c >= 65 && c <= 90)
+                answer.append((char) (c + 32));
+            else
+                answer.append((char) (c - 32));
+        }
+
+        return answer;
+    }
   
   public static void main(String[] args) throws IOException {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     String str = br.readLine();
     Main main = new Main();
 
-    System.out.println(main.Solution(str));
+    System.out.println(main.solution(str));
   }
 }
