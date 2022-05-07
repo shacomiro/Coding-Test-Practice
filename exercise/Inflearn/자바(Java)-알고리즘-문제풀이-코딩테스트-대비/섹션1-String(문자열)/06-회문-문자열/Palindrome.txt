@@ -1,0 +1,44 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class Palindrome {
+    public String solution(String str) {
+        String lStr = str.toLowerCase();
+        StringBuilder sb = new StringBuilder(lStr);
+
+        if(lStr.equals(String.valueOf(sb.reverse())))
+            return "YES";
+        else
+            return "NO";
+    }
+
+    public String alternativeSolutionOne(String str) {
+        String tempStr = str.toLowerCase();
+
+        for(int i = 0; i < tempStr.length() / 2; i++) {
+            if(tempStr.charAt(i) != tempStr.charAt(tempStr.length() - (i + 1)))
+                return "NO";
+        }
+
+        return "YES";
+    }
+
+    public String alternativeSolutionTwo(String str) {
+        StringBuilder sb = new StringBuilder(str);
+
+        // 대소문자를 무시하고 비교하는 String 메서드
+        if(str.equalsIgnoreCase(sb.reverse().toString()))
+            return "YES";
+        else
+            return "NO";
+    }
+
+    public static void main(String[] args) throws IOException {
+        Palindrome T = new Palindrome();
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        String str = br.readLine();
+
+        System.out.println(T.solution(str));
+    }
+}
