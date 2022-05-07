@@ -68,6 +68,12 @@
 
 - [COS Pro 1급 Java 모의고사](./exercise/프로그래밍-강의/COS-Pro-Grade-1-Java-Mock-Test)
 
+## [인프런](./exercise/Inflearn)
+
+### 강의
+
+- [자바(Java) 알고리즘 문제풀이: 코딩테스트 대비](<./exercise/Inflearn/자바(Java)-알고리즘-문제풀이-코딩테스트-대비>)
+
 ## 실전 문제
 
 널리 공개된 적은 없지만, 실제 문제로 사용됐거나 나올 법 한 문제들이에요.
