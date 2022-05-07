@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Main {
-    public int Solution(String str, char target) {
+    public int solution(String str, char target) {
         int answer = 0;
         String string = str.toUpperCase();
         char c = Character.toUpperCase(target);
@@ -21,6 +21,6 @@ public class Main {
         String str = br.readLine();
         char c = br.readLine().charAt(0);
 
-        System.out.println(main.Solution(str, c));
+        System.out.println(main.solution(str, c));
     }
 }
