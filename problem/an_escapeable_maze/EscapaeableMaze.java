@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class test {
+public class EscapaeableMaze {
 	public static ArrayList<ArrayList<String>> maze = new ArrayList<ArrayList<String>>(); // 미로 ArrayList 생성
 	public static HashMap<Integer, ArrayList<ArrayList<String>>> mazeSolution = new HashMap<Integer, ArrayList<ArrayList<String>>>();
 	public static HashMap<Integer, Path> pathMap = new HashMap<Integer, Path>();
@@ -131,7 +131,8 @@ public class test {
 	public static ArrayList<ArrayList<String>> SubjectList_Copy(ArrayList<ArrayList<String>> list){
 	    ArrayList<ArrayList<String>> temp = new ArrayList<ArrayList<String>>();
 	    for(ArrayList<String> list_item: list){
-	        temp.add((ArrayList<String>) list_item.clone());
+	        ArrayList<String> copiedList = new ArrayList<String>(list_item);
+        	temp.add(copiedList);
 	    }
 	    return temp;
 	}
