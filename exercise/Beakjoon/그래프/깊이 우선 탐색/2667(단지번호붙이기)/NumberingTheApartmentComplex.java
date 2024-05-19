@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Collections;
 
-class Main {
+class NumberingTheApartmentComplex {
     int[] dx = {-1, 0, 1, 0};
     int[] dy = {0, 1, 0, -1};
     int cnt;
@@ -44,7 +44,7 @@ class Main {
     }
 
     public static void main(String[] args) throws IOException {
-        Main T = new Main();
+        NumberingTheApartmentComplex T = new NumberingTheApartmentComplex();
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
 

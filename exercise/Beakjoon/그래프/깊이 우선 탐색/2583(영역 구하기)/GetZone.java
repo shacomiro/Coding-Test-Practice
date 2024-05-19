@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.StringTokenizer;
 
-class Main {
+class GetZone {
     int[] dx = {-1, 0, 1, 0};
     int[] dy = {0, 1, 0, -1};
     int sum;
@@ -41,7 +41,7 @@ class Main {
     }
 
     public static void main(String[] args) throws IOException {
-        Main T = new Main();
+        GetZone T = new GetZone();
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
         int n = Integer.parseInt(st.nextToken());
