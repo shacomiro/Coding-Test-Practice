@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 
-class Main {
+class PrimeNumber {
     public ArrayList<Integer> solution(int m, int n) {
         ArrayList<Integer> answer = new ArrayList<>();
         int min = Integer.MAX_VALUE;
@@ -32,7 +32,7 @@ class Main {
 
 
     public static void main(String[] args) throws IOException {
-        Main main = new Main();
+        PrimeNumber main = new PrimeNumber();
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int m = Integer.parseInt(br.readLine());
         int n = Integer.parseInt(br.readLine());

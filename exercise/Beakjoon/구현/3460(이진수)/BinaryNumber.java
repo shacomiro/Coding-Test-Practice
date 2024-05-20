@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-class Main {
+class BinaryNumber {
     public String[] solution(int n, int[] arr) {
         String[] answer = new String[n];
 
@@ -25,7 +25,7 @@ class Main {
     }
 
     public static void main(String[] args) throws IOException {
-        Main main = new Main();
+        BinaryNumber main = new BinaryNumber();
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int n = Integer.parseInt(br.readLine());

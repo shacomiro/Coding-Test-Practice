@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
 
-class Main {
+class MakeItOne {
     public int solution(int n) {
         int[] dp = new int[n + 1];
         
@@ -30,7 +30,7 @@ class Main {
     }
     
     public static void main(String[] args) throws IOException {
-        Main main = new Main();
+        MakeItOne main = new MakeItOne();
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
         

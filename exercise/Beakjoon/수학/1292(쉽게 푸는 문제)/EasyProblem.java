@@ -1,10 +1,9 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 import java.util.StringTokenizer;
 
-class Main {
+class EasyProblem {
     public int solution(int begin, int end) {
         int answer = 0;
         int n = 0;
@@ -24,7 +23,7 @@ class Main {
 
 
     public static void main(String[] args) throws IOException {
-        Main main = new Main();
+        EasyProblem main = new EasyProblem();
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
         int begin = Integer.parseInt(st.nextToken());

@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-class Main {
+class GetDivisor {
     public int solution(int n, int k) {
         int answer = 0;
         int cnt = 0;
@@ -20,7 +20,7 @@ class Main {
     }
 
     public static void main(String[] args) throws IOException {
-        Main main = new Main();
+        GetDivisor main = new GetDivisor();
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
         int n = Integer.parseInt(st.nextToken());

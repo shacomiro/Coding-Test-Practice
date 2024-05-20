@@ -3,7 +3,7 @@ import java.io.InputStreamReader;
 import java.io.IOException;
 import java.util.StringTokenizer;
 
-class Main {
+class GetPrefixSum5 {
     public int[] solution(int n, int m, int[][] arr, int[][] range) {
         int[] answer = new int[m];
         int[][] dp = new int[n + 1][n + 1];
@@ -27,7 +27,7 @@ class Main {
     }
     
     public static void main(String[] args) throws IOException {
-        Main main = new Main();
+        GetPrefixSum5 main = new GetPrefixSum5();
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st1 = new StringTokenizer(br.readLine());
         int n = Integer.parseInt(st1.nextToken());

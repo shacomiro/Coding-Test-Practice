@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-class Main {
+class IntelligentTrain2 {
     public int solution(int[][] arr) {
         int max = Integer.MIN_VALUE;
         int cnt = 0;
@@ -19,7 +19,7 @@ class Main {
     }
 
     public static void main(String[] args) throws IOException {
-        Main main = new Main();
+        IntelligentTrain2 main = new IntelligentTrain2();
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int[][] arr = new int[10][2];
         for(int i = 0; i < 10; i++) {

@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-class Main {
+class FindPrimeNumber {
     public int solution(int[] arr) {
         int answer = 0;
         Arrays.sort(arr);
@@ -26,7 +26,7 @@ class Main {
 
 
     public static void main(String[] args) throws IOException {
-        Main main = new Main();
+        FindPrimeNumber main = new FindPrimeNumber();
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
         int[] arr = new int[n];

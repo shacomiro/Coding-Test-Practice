@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-class Main {
+class InsertOperator {
     public int[] solution(int n, int[] numbers, int[] operators) {
         int min = Integer.MIN_VALUE;
         int max = Integer.MAX_VALUE;
@@ -51,7 +51,7 @@ class Main {
     }
 
     public static void main(String[] args) throws IOException {
-        Main main = new Main();
+        InsertOperator main = new InsertOperator();
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
         int[] numbers = new int[n];

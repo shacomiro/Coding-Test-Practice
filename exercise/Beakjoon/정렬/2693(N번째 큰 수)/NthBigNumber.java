@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-class Main {
+class NthBigNumber {
     public int[] solution(int n, int[][] arr) {
         int[] answer = new int[n];
 
@@ -18,7 +18,7 @@ class Main {
 
 
     public static void main(String[] args) throws IOException {
-        Main main = new Main();
+        NthBigNumber main = new NthBigNumber();
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
         int[][] arr = new int[n][10];

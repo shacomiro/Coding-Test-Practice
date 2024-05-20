@@ -3,12 +3,12 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-class Main {
+class GcdAndLcm {
     public int[] solution(int n, int m) {
         int big, small;
         int gcd, lcm;
 
-        if(n  m) {
+        if(n > m) {
             big = n;
             small = m;
         } else {
@@ -17,7 +17,7 @@ class Main {
         }
 
         gcd = getGCF(big, small);
-        lcm = (big  small)  gcd;
+        lcm = (big * small) / gcd;
 
         return new int[] {gcd, lcm};
     }
@@ -28,13 +28,13 @@ class Main {
     }
 
     public static void main(String[] args) throws IOException {
-        Main main = new Main();
+        GcdAndLcm main = new GcdAndLcm();
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
         int n = Integer.parseInt(st.nextToken());
         int m = Integer.parseInt(st.nextToken());
         br.close();
 
-        for(int x  main.solution(n, m)) System.out.println(x);
+        for(int x : main.solution(n, m)) System.out.println(x);
     }
 }

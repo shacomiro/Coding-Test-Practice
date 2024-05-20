@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Main {
+public class SugarDelivery {
     public int solution(int n) {
         int answer = 0;
         int cnt3 = 0;
@@ -26,7 +26,7 @@ public class Main {
     }
 
     public static void main(String[] args) throws IOException {
-        Main T = new Main();
+        SugarDelivery T = new SugarDelivery();
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
 
