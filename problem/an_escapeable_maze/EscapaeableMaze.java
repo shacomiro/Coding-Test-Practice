@@ -102,23 +102,23 @@ public class EscapaeableMaze {
 		// 미로 파일 읽기
 		try{
 	        //파일 객체 생성
-	        File file = new File("D:/Development/work/maze/src/maze/maze.txt"); // 미로 파일 경로
+	        File file = new File("./problem/an_escapeable_maze/maze.txt"); // 미로 파일 경로
 	         //입력 스트림 생성
-	         FileReader file_reader = new FileReader(file);
-	         int cur = 0;
-	         ArrayList<String> line = new ArrayList<String>();
-	         while(true){
-	        	cur = file_reader.read();
-	            line.add(Character.toString((char)cur));
-	            if((char)cur == '\n') {
-	            	maze.add(line);
-	            	line = new ArrayList<String>();
-	            } else if(cur == -1) {
-	            	maze.add(line);
-	            	break;
-	            }
-	         }
-	         file_reader.close();
+			FileReader file_reader = new FileReader(file);
+			int cur = 0;
+			ArrayList<String> line = new ArrayList<String>();
+			while(true){
+				cur = file_reader.read();
+				line.add(Character.toString((char)cur));
+				if((char)cur == '\n') {
+					maze.add(line);
+					line = new ArrayList<String>();
+				} else if(cur == -1) {
+					maze.add(line);
+					break;
+				}
+			}
+			file_reader.close();
         }catch (FileNotFoundException e) {
             e.getStackTrace();
         }catch(IOException e){
@@ -129,12 +129,12 @@ public class EscapaeableMaze {
 	}
 	
 	public static ArrayList<ArrayList<String>> SubjectList_Copy(ArrayList<ArrayList<String>> list){
-	    ArrayList<ArrayList<String>> temp = new ArrayList<ArrayList<String>>();
-	    for(ArrayList<String> list_item: list){
-	        ArrayList<String> copiedList = new ArrayList<String>(list_item);
-        	temp.add(copiedList);
-	    }
-	    return temp;
+		ArrayList<ArrayList<String>> temp = new ArrayList<ArrayList<String>>();
+		for(ArrayList<String> list_item: list){
+			ArrayList<String> copiedList = new ArrayList<String>(list_item);
+			temp.add(copiedList);
+		}
+		return temp;
 	}
 }
 
