@@ -4,20 +4,30 @@
 
 코딩 테스트 문제 연습 및 기록을 위한 저장소에요. 여러 온라인 코딩 테스트 사이트들에 수록된 문제들과 일부 기업들의 테스트 문제들에 대한 풀이를 수록하고 있어요.
 
-## 사용 언어
-
-- Java
-- 추가 예정! 🥸
-
 ## [백준 온라인 저지](./exercise/Beakjoon)
+
+[사용 팁](./exercise/Beakjoon/Beakjoon-tips.md)
 
 ### 알고리즘 분류
 
 - [구현](./exercise/Beakjoon/구현)
+- [그래프](./exercise/Beakjoon/그래프)
+  - [깊이 우선 탐색](./exercise/Beakjoon/그래프/깊이%20우선%20탐색)
+  - [너비 우선 탐색](./exercise/Beakjoon/그래프/너비%20우선%20탐색)
+- [그리디 알고리즘](./exercise/Beakjoon/그리디%20알고리즘)
+- [누적 합](./exercise/Beakjoon/누적%20합)
+- [다이나믹 프로그래밍](./exercise/Beakjoon/다이나믹%20프로그래밍)
 - [문자열](./exercise/Beakjoon/문자열)
+- [백트래킹](./exercise/Beakjoon/백트래킹)
+- [부르트포스 알고리즘](./exercise/Beakjoon/브루트포스%20알고리즘)
 - [수학](./exercise/Beakjoon/수학)
 - [시뮬레이션](./exercise/Beakjoon/시뮬레이션)
+- [이분 탐색](./exercise/Beakjoon/이분%20탐색)
+- [자료구조](./exercise/Beakjoon/자료구조)
 - [정렬](./exercise/Beakjoon/정렬)
+- [해싱](./exercise/Beakjoon/해싱)
+
+### 문제 풀이
 
 ## [프로그래머스](./exercise/Programmers)
 
@@ -76,6 +86,4 @@
 
 ## 실전 문제
 
-널리 공개된 적은 없지만, 실제 문제로 사용됐거나 나올 법 한 문제들이에요.
-
-- [탈출 가능한 미로](./problem/an_escapeable_maze)
+- [탈출 가능한 미로](./problem/탈출%20가능한%20미로)
