@@ -21,6 +21,7 @@
 - [백트래킹](./exercise/Beakjoon/백트래킹)
 - [부르트포스 알고리즘](./exercise/Beakjoon/브루트포스%20알고리즘)
 - [수학](./exercise/Beakjoon/수학)
+  - [기하학](./exercise/Beakjoon/수학/기하학)
 - [시뮬레이션](./exercise/Beakjoon/시뮬레이션)
 - [이분 탐색](./exercise/Beakjoon/이분%20탐색)
 - [자료구조](./exercise/Beakjoon/자료구조)
