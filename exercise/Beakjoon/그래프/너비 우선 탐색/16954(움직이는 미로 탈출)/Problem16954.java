@@ -7,13 +7,13 @@ import java.util.ArrayDeque;
 import java.util.Arrays;
 import java.util.Queue;
 
-class Solution16952 {
+class Solution16954 {
     private final int[] DX = {0, 1, 0, 1, 1, -1, -1, 0, -1};
     private final int[] DY = {0, 0, 1, 1, -1, 1, 0, -1, -1};
     private char[][] map;
     private boolean[][] visited;
     
-    public Solution16952(char[][] map) {
+    public Solution16954(char[][] map) {
         this.map = map;
         this.visited = new boolean[8][8];
     }
@@ -77,7 +77,7 @@ class Solution16952 {
     }
 }
 
-public class Problem16952 {
+public class Problem16954 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
@@ -91,7 +91,7 @@ public class Problem16952 {
             }
         }
         
-        bw.write(new Solution16952(arr).solve());
+        bw.write(new Solution16954(arr).solve());
         bw.flush();
         bw.close();
     }
