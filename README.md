@@ -14,6 +14,9 @@
 - [그래프](./exercise/Beakjoon/그래프)
   - [깊이 우선 탐색](./exercise/Beakjoon/그래프/깊이%20우선%20탐색)
   - [너비 우선 탐색](./exercise/Beakjoon/그래프/너비%20우선%20탐색)
+  - [플로이드-워셜](./exercise/Beakjoon/그래프/플로이드-워셜)
+  - [정렬](./exercise/Beakjoon/그래프/정렬)
+    - [위상 정렬](./exercise/Beakjoon/그래프/정렬/위상%20정렬)
 - [그리디 알고리즘](./exercise/Beakjoon/그리디%20알고리즘)
 - [누적 합](./exercise/Beakjoon/누적%20합)
 - [다이나믹 프로그래밍](./exercise/Beakjoon/다이나믹%20프로그래밍)
@@ -22,10 +25,12 @@
 - [부르트포스 알고리즘](./exercise/Beakjoon/브루트포스%20알고리즘)
 - [수학](./exercise/Beakjoon/수학)
   - [기하학](./exercise/Beakjoon/수학/기하학)
+  - [사칙연산](./exercise/Beakjoon/수학/사칙연산)
 - [시뮬레이션](./exercise/Beakjoon/시뮬레이션)
 - [이분 탐색](./exercise/Beakjoon/이분%20탐색)
 - [자료구조](./exercise/Beakjoon/자료구조)
 - [정렬](./exercise/Beakjoon/정렬)
+- [투 포인터](./exercise/Beakjoon/투%20포인터)
 - [해싱](./exercise/Beakjoon/해싱)
 
 ### 문제 풀이
