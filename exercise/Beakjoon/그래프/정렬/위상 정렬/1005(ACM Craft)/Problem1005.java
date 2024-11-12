@@ -39,17 +39,15 @@ class Solution1005 {
             }
         }
 
-        while(!queue.isEmpty()) {
-            for(int i = 0; i < size; i++) {
-                int curr = queue.poll();
+        for(int i = 0; i < size; i++) {
+            int curr = queue.poll();
 
-                for(int next : graph.get(curr)) {
-                    maxDelay[next] = Math.max(maxDelay[next], maxDelay[curr] + delay[next]);
-                    inDegree[next]--;
+            for(int next : graph.get(curr)) {
+                maxDelay[next] = Math.max(maxDelay[next], maxDelay[curr] + delay[next]);
+                inDegree[next]--;
 
-                    if(inDegree[next] == 0) {
-                        queue.offer(next);
-                    }
+                if(inDegree[next] == 0) {
+                    queue.offer(next);
                 }
             }
         }
