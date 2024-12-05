@@ -9,13 +9,11 @@ class Solution10709 {
     private int h;
     private int w;
     private char[][] sky;
-    private int[][] times;
 
     public Solution10709(int h, int w, char[][] sky) {
         this.h = h;
         this.w = w;
         this.sky = sky;
-        this.times = new int[h][w];
     }
 
     public String solve() {
