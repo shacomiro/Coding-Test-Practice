@@ -24,7 +24,7 @@ class Solution10811 {
 
     public String solve() {
         for(int i = 0; i < m; i++) {
-            swap(ranges[i][0], ranges[i][1]);
+            reverse(ranges[i][0], ranges[i][1]);
         }
 
         StringBuilder sb = new StringBuilder();
@@ -35,7 +35,7 @@ class Solution10811 {
         return sb.toString();
     }
 
-    private void swap(int from, int to) {
+    private void reverse(int from, int to) {
         while(from < to) {
             int temp = baskets[from];
             baskets[from] = baskets[to];
