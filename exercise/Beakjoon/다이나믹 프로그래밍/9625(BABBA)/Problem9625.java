@@ -26,16 +26,6 @@ class Solution9625 {
     }
 }
 
-//A->B
-//B->BA
-
-//A         1 0
-//B         0 1
-//BA        1 1
-//BAB       1 2
-//BABBA     2 3
-//BABBABAB  3 5
-
 public class Problem9625 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
