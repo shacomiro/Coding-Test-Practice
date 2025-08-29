@@ -31,7 +31,7 @@ public class Problem2456 {
     static class Solver {
         private int n;
         private int[][] votes;
-        List<Candidate> candidates;
+        private List<Candidate> candidates;
 
         public Solver(int n, int[][] votes) {
             this.n = n;
